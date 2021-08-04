@@ -7,7 +7,7 @@ const printFirstList = () => {
   for (const link of CONFIG.lists.firstList) {
     let item = `
         <a
-        target="${CONFIG.openInNewTab ? "_blank" : ""}"
+        target="_self"
         href="${link.link}"
         class="list__link"
         >${link.name}</a
