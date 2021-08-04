@@ -37,4 +37,14 @@ themeToggle.addEventListener('click', () => {
 
 if(CONFIG.imageBackground) {
   document.body.classList.add('withImageBackground');
-} 
+}
+
+var d = new Date();
+
+var hours = d.getHours();
+
+if (hours >= 18 || hours <= 5) {
+  enableDark();
+} else {
+  disableDark();
+}
