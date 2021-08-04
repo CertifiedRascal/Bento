@@ -11,15 +11,15 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'スピード',
   imageBackground: false,
   openInNewTab: true,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'おはよう、',
+  greetingAfternoon: '今日は、',
+  greetingEvening: '今晩は、',
+  greetingNight: 'お休み、　',
 
   // Weather
   weatherKey: 'InsertYourAPIKeyHere123456',
@@ -37,39 +37,39 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'Gitlab',
+      icon: 'gitlab',
+      link: 'https://gitlab.com/',
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'Bitwarden',
+      icon: 'lock',
+      link: 'https://vault.bitwarden.com/#/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Amazon',
+      icon: 'shopping-cart',
+      link: 'https://amazon.com',
     },
     {
       id: '4',
-      name: 'Calendar',
-      icon: 'calendar',
-      link: 'https://calendar.google.com/calendar/r',
+      name: 'Reddit',
+      icon: 'book-open',
+      link: 'https://reddit.com/',
     },
     {
       id: '5',
-      name: 'Reddit',
-      icon: 'bookmark',
-      link: 'https://reddit.com',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Slack',
+      icon: 'slack',
+      link: 'https://slack.com',
     },
   ],
 
@@ -85,38 +85,38 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Nintendo and lofi',
+        link: 'https://www.youtube.com/watch?v=AvhplYM46Fc&list=PLtp9gBTCKnc8jUhCOeHOKArZbEKf44GdF',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Dreamy lofi',
+        link: 'https://youtu.be/fZwWQhfwjK0',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'no thoughts, head empty',
+        link: 'https://www.youtube.com/watch?v=qZGwRz8wnSY&list=PLyJloYf4OGtaSaplK_E9LruV5a2fIXeX6&index=1',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Nostalgia',
+        link: 'https://youtu.be/7c_TmELfuZo',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'itazuraneko',
+        link: 'https://itazuraneko.neocities.org/index.html',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: '4chan',
+        link: 'https://4chan.org/',
       },
       {
-        name: 'Dribbble',
-        link: 'https://dribbble.com',
+        name: 'GitHub',
+        link: 'https://github.com/',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Apex Minecraft Server',
+        link: 'https://panel.apexminecrafthosting.com/site/page/dashboard',
       },
     ],
   },
