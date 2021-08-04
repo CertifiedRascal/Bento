@@ -151,7 +151,8 @@ body {
 }
 
 #month,
-#day {
+#day,
+#dayOfWeek {
   font-size: var(--fsm);
   font-weight: bold;
   color: var(--fg);
