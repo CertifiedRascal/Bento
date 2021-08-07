@@ -25,7 +25,7 @@ const printSecondList = () => {
   for (const link of CONFIG.lists.secondList) {
     let item = `
           <a
-          target="${CONFIG.openInNewTab ? "_blank" : ""}"
+          target="_self"
           href="${link.link}"
           class="list__link"
           >${link.name}</a
