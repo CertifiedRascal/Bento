@@ -115,8 +115,8 @@ const CONFIG = {
         link: 'https://github.com/',
       },
       {
-        name: 'Apex Minecraft Server',
-        link: 'https://panel.apexminecrafthosting.com/site/page/dashboard',
+        name: 'Arch User Repository',
+        link: 'https://aur.archlinux.org/',
       },
     ],
   },
