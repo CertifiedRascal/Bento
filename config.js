@@ -115,8 +115,8 @@ const CONFIG = {
         link: 'https://github.com/',
       },
       {
-        name: 'Arch User Repository',
-        link: 'https://aur.archlinux.org/',
+        name: 'The Moe Way',
+        link: 'http://learnjapanese.moe/',
       },
     ],
   },
