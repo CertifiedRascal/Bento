@@ -39,9 +39,13 @@ if(CONFIG.imageBackground) {
   document.body.classList.add('withImageBackground');
 }
 
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-    e.matches ? enableDark() : disableDark();
-});
+
+//Theme switcher based on system dark or light theme
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    enableDark();
+} else {
+  disableDark();
+}
 
 //Theme Switcher based on time
 /*
