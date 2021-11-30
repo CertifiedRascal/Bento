@@ -40,7 +40,7 @@ if(CONFIG.imageBackground) {
 }
 
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-    e.matches ? enableDark(); : disableDark();
+    e.matches ? enableDark() : disableDark();
 });
 
 //Theme Switcher based on time
