@@ -40,7 +40,6 @@ if(CONFIG.imageBackground) {
 }
 
 //Theme Switcher based on time
-/*
 var d = new Date();
 
 var hours = d.getHours();
@@ -50,4 +49,3 @@ if (hours >= 18 || hours <= 5) {
 } else {
   disableDark();
 }
-*/
