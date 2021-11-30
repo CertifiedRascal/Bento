@@ -39,7 +39,12 @@ if(CONFIG.imageBackground) {
   document.body.classList.add('withImageBackground');
 }
 
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+    e.matches ? enableDark(); : disableDark();
+});
+
 //Theme Switcher based on time
+/*
 var d = new Date();
 
 var hours = d.getHours();
@@ -49,3 +54,4 @@ if (hours >= 18 || hours <= 5) {
 } else {
   disableDark();
 }
+*/
