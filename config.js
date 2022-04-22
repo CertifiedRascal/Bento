@@ -94,7 +94,7 @@ const CONFIG = {
       },
       {
         name: 'no thoughts, head empty',
-        link: 'https://www.youtube.com/watch?v=qZGwRz8wnSY&list=PLyJloYf4OGtaSaplK_E9LruV5a2fIXeX6&index=1',
+        link: 'https://youtu.be/HL9_xm5HwrE',
       },
       {
         name: 'Nostalgia',
