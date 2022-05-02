@@ -17,7 +17,7 @@ const CONFIG = {
 
   // Greetings
   greetingMorning: 'おはよう、',
-  greetingAfternoon: '今日は、',
+  greetingAfternoon: 'こんにちは、',
   greetingEvening: '今晩は、',
   greetingNight: 'お休み、　',
 
