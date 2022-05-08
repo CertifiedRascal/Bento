@@ -93,8 +93,8 @@ const CONFIG = {
         link: 'https://youtu.be/fZwWQhfwjK0',
       },
       {
-        name: 'no thoughts, head empty',
-        link: 'https://youtu.be/HL9_xm5HwrE',
+        name: 'Yamanote Train Melodies',
+        link: 'https://youtu.be/4V6Q5l2S7Co',
       },
       {
         name: 'Nostalgia',
