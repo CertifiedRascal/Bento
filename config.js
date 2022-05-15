@@ -67,9 +67,9 @@ const CONFIG = {
     },
     {
       id: '6',
-      name: 'Slack',
-      icon: 'slack',
-      link: 'https://slack.com',
+      name: 'Weather',
+      icon: 'cloud-drizzle',
+      link: 'https://weather.com',
     },
   ],
 
