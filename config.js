@@ -37,9 +37,9 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Gitlab',
-      icon: 'gitlab',
-      link: 'https://gitlab.com/',
+      name: 'Github',
+      icon: 'github',
+      link: 'https://github.com/',
     },
     {
       id: '2',
@@ -111,8 +111,8 @@ const CONFIG = {
         link: 'https://4chan.org/',
       },
       {
-        name: 'GitHub',
-        link: 'https://github.com/',
+        name: 'Startmail',
+        link: 'https://startmail.com/',
       },
       {
         name: 'The Moe Way',
